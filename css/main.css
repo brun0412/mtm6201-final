@@ -426,6 +426,10 @@ button.bubr {
     height: 400px;
 }
 
+.rescard img {
+    aspect-ratio: 1;
+}
+
 .map {
     aspect-ratio: 1;
 }
