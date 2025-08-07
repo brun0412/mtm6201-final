@@ -290,6 +290,29 @@ button, .nav-link {
     text-transform: uppercase;
 }
 
+button.bubr {
+    background-color: var(--bs-primary);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.bubr:hover {
+    border: var(--bs-primary) 3px solid;
+    background-color: var(--bs-body-bg);
+    color: #000;
+}
+
+.bugr {
+    background-color: var(--bs-secondary-bg);
+    color: #000;
+    border-radius: 8px;
+}
+
+.bugr:hover {
+    border: var(--bs-secondary-bg) 3px solid;
+    background-color: var(--bs-body-bg);
+}
+
 .nav-link {
     border-radius: .5rem;
     color: var(--bs-tertiary-color);
@@ -345,6 +368,66 @@ button, .nav-link {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
+}
+
+.galimg {
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 1;
+    transition: all 500ms;
+}
+
+.galimg:nth-child(1) {
+    background-image: url(../images/gallery1salad.jpg);
+}
+
+.galimg:nth-child(2) {
+    background-image: url(../images/gallery2pasta.jpg);
+}
+
+.galimg:nth-child(3) {
+    background-image: url(../images/gallery3pie.jpg);
+}
+
+.galimg:nth-child(4) {
+    background-image: url(../images/gallery4pasta.jpg);
+}
+
+.galimg:nth-child(5) {
+    background-image: url(../images/gallery5soup.jpg);
+}
+
+.galimg:nth-child(6) {
+    background-image: url(../images/gallery6pizza.jpg);
+}
+
+.galinfo {
+    display: none;
+    height: 100%;
+    width: 100%;
+    transition: all 500ms;
+}
+
+.galimg:hover .galinfo {
+    display: flex;
+}
+
+.curve {
+    border-radius: 8px;
+}
+
+.abt {
+    color: #fff;
+    background-color: #0008;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/aboutteamphoto.jpg);
+    height: 400px;
+}
+
+.map {
+    aspect-ratio: 1;
 }
 
 @media screen and (min-width: 768px) {
