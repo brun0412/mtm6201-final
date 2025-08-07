@@ -434,6 +434,10 @@ button.bubr {
     aspect-ratio: 1;
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: var(--bs-body-bg);
+}
+
 @media screen and (min-width: 768px) {
     .hero {
         height: 360px;
