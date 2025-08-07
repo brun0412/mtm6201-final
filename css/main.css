@@ -321,3 +321,46 @@ button, .nav-link {
     font-weight: 400;
     text-decoration: none;
 }
+
+.mainhero {
+    background-image: url("../images/hero.jpg");
+    background-color: #0008;
+    background-blend-mode: multiply;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.reshero {
+    background-image: url(../images/resheader.jpg);
+}
+
+.abthero {
+    background-image: url(../images/faq.jpg);
+}
+
+.hero {
+    color: #fff;
+    background-color: #0008;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 360px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mainhero {
+        background-color: var(--bs-tertiary-bg);
+        background-image: none;
+        height: auto;
+    }
+
+    .hero {
+        height: 400px;
+    }
+}
