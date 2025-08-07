@@ -284,6 +284,12 @@ h3 {
     font-size: clamp(1.5rem, 0.16666666666666674rem + 2.7777777777777777vw, 2.25rem);
 }
 
+h4 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-size: clamp(1.25rem, 0.8055555555555556rem + 0.9259259259259258vw, 1.5rem);
+}
+
 button, .nav-link {
     font-size: 1.25rem;
     font-weight: 700;
